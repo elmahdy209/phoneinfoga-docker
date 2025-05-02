@@ -13,6 +13,9 @@ services:
     environment:
       - PHONEINFOGA_API_MODE=true           # Enable API Mode
       - PHONEINFOGA_API_KEY=XKcd!73abC9z    # Set your API key
+      - OVH_APP_KEY=2fa639fc31848947
+      - OVH_APP_SECRET=9a07e58b333f1d6a8711668dd5a93e94
+      - OVH_CONSUMER_KEY=819abbaa5ce32ee4599eaab244c8ed59
     volumes:
       - data:/root/.phoneinfoga             # Persist cache & settings
 
